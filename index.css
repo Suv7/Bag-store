@@ -1,0 +1,135 @@
+
+* {
+    margin : 0;
+    padding :0;
+}
+body{
+    background-color: #fefefeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #902c7e;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgb(100, 97, 97);
+}
+nav .logo{
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    font-size: 25px;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7px;
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    margin-inline: 15px;
+    font-size: 25px;
+}
+ul li i{
+    font-size: 60px;
+}
+ul li #home{
+    color: #ffe4c4;
+}
+ul li #shop{
+    color: bisque;
+}
+ul li #about{
+    color: bisque;
+}
+ul li #contact{
+    color: bisque;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: rgb(254, 5, 5);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.main .mainText{
+    margin-top: 10px;
+    font-size: 20px;
+    color:brown;
+}
+.main img{
+    width: 30%;
+    height: 50%;
+    border-radius: 55px;   
+}
+
+.Carry .head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head  span{
+    color:brown;
+}
+
+.card{
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.crd{
+    width: 300px;
+    height: 500px;
+    background-color:burlywood ;
+    /* margin-inline: 60px; */
+    padding: 25px;
+}
+.crd img{
+    width: 100%;
+    height: 65%;
+    border-radius: 55px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.footer .footerText{
+    margin-inline: 95px;
+}
+.footerText p{
+    margin-top: 11px;
+}
+
+/* about */
+
+.abouts{
+    display: none;
+}
+
+.aboutus{
+    margin-top: 32px;
+    background-color: rgb(8, 8, 62);
+    color: azure;
+    padding: 56px;
+    font-size: 22px;
+}
+.us{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background-color: aliceblue;
+    padding: 33px;
+    margin-left: 28%;
+}
+.us img{
+    width: 48%;
+}
